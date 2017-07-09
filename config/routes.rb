@@ -22,10 +22,11 @@ Rails.application.routes.draw do
 
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
-
-
     
-  
+
+ resources :products, only: [:index, :show] do 
+    resources :reviews, only: [:create, :destroy]
+  end
 
   namespace :admin do
     root to: 'dashboard#show'
