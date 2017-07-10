@@ -10,6 +10,10 @@ Rails.application.routes.draw do
     delete :remove_item
   end
 
+  if Rails.env.development?
+    mount LetterOpenerWeb::Engine, at: "/letter_opener"
+  end
+
   resources :orders, only: [:create, :show]
 
   get '/cool' => 'gif#cool'
