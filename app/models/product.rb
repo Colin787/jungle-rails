@@ -11,4 +11,13 @@ class Product < ActiveRecord::Base
   validates :quantity, presence: true
   validates :category, presence: true
 
+  def average_rating
+    if reviews.count > 0
+      # reviews.all.sum('rating') / reviews.count
+      reviews.sum('rating') / reviews.count
+    else 
+      0
+    end 
+  end
+
 end
