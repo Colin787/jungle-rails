@@ -26,3 +26,21 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+##Pictures
+
+!['picture-one'](https://github.com/Colin787/jungle-rails/blob/master/docs/signup.png)
+!['picture-two'](https://github.com/Colin787/jungle-rails/blob/master/docs/login.png)
+!['picture-three'](https://github.com/Colin787/jungle-rails/blob/master/docs/home.png)
+!['picture-four'](https://github.com/Colin787/jungle-rails/blob/master/docs/categories.png)
+!['picture-five'](https://github.com/Colin787/jungle-rails/blob/master/docs/singlecategory.png)
+!['picture-six'](https://github.com/Colin787/jungle-rails/blob/master/docs/review.png)
+!['picture-seven'](https://github.com/Colin787/jungle-rails/blob/master/docs/placedreview.png)
+!['picture-eight'](https://github.com/Colin787/jungle-rails/blob/master/docs/httpbasic.png)
+!['picture-nine'](https://github.com/Colin787/jungle-rails/blob/master/docs/adminallprod.png)
+!['picture-ten'](https://github.com/Colin787/jungle-rails/blob/master/docs/allcat.png)
+!['picture-eleven'](https://github.com/Colin787/jungle-rails/blob/master/docs/cart.png)
+!['picture-twelve'](https://github.com/Colin787/jungle-rails/blob/master/docs/checkout.png)
+!['picture-thirteen'](https://github.com/Colin787/jungle-rails/blob/master/docs/email.png)
+
+
